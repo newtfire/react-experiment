@@ -1,15 +1,39 @@
-import logo from './logo.svg';
 import './App.css';
-import puffin from './images/puffin1.jpg';
+import puffin from './assets/puffin1.jpg';
+import {galleryData} from "./data";
+
+
+function List() {
+  // const kinds = galleryData.kind
+  const libraries = galleryData.filter(pic =>
+      pic.kind === 'library'
+  );
+  const listItems = libraries.map(pic =>
+      <li key={pic.id}>
+          {console.log('IMAGE URL IS: ' + pic.src)}
+        <img
+            src={pic.src}
+            alt={pic.name}
+        />
+          <img src={puffin} alt='placeholder puffin'/>
+        <p>
+          <b>{pic.name}:</b>
+          {' ' + pic.note}
+        </p>
+      </li>
+  );
+  return <ul>{listItems}</ul>;
+
+}
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={puffin} className="puffin" alt="Puffin from Iceland" />
-        <p>
-          Here's a puffin I met off the northeast coast of Iceland.
-        </p>
+        <b>HALLOOOOO</b>
+        <>
+        <List />
+        </>
+
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -18,7 +42,6 @@ function App() {
         >
           Learn React
         </a>
-      </header>
     </div>
   );
 }
