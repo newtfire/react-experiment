@@ -18,7 +18,7 @@ function List() {
             src={pic.src}
             alt={pic.name}
         />
-          <img src={puffin} alt='placeholder puffin'/>
+
         <p>
           <b>{pic.name}:</b>
           {' ' + pic.note}
