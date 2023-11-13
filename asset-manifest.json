@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/react-experiment/static/css/main.20f55ecd.css",
-    "main.js": "/react-experiment/static/js/main.576eb1cd.js",
+    "main.js": "/react-experiment/static/js/main.f873f7c4.js",
     "static/js/787.1cf87682.chunk.js": "/react-experiment/static/js/787.1cf87682.chunk.js",
     "static/media/puffin1.jpg": "/react-experiment/static/media/puffin1.1a83afaf5467cc7b1da6.jpg",
     "index.html": "/react-experiment/index.html",
     "main.20f55ecd.css.map": "/react-experiment/static/css/main.20f55ecd.css.map",
-    "main.576eb1cd.js.map": "/react-experiment/static/js/main.576eb1cd.js.map",
+    "main.f873f7c4.js.map": "/react-experiment/static/js/main.f873f7c4.js.map",
     "787.1cf87682.chunk.js.map": "/react-experiment/static/js/787.1cf87682.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.20f55ecd.css",
-    "static/js/main.576eb1cd.js"
+    "static/js/main.f873f7c4.js"
   ]
 }
