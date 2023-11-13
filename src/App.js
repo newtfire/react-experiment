@@ -8,7 +8,10 @@ function List() {
   const libraries = galleryData.filter(pic =>
       pic.kind === 'library'
   );
-  const listItems = libraries.map(pic =>
+    const electrics = galleryData.filter(pic =>
+        pic.kind === 'electric art'
+    );
+  const listItems = electrics.map(pic =>
       <li key={pic.id}>
           {console.log('IMAGE URL IS: ' + pic.src)}
         <img
