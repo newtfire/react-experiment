@@ -15,7 +15,7 @@ export const galleryData = [{
     name: 'Circuitry',
     kind: 'electric art',
     note: 'This was AI art I generated from prompts in Nightcafe',
-    arc: './assets/circuitry-nightcafe.jpg'
+    src: './assets/circuitry-nightcafe.jpg'
 }, {
     id: 3,
     name: 'Coding tube',
