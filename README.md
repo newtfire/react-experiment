@@ -1,3 +1,7 @@
+# Helping with LOTS of image imports
+Try this: <https://snyk.io/advisor/npm-package/react-import-folder> and it will generate import lines for images. 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
