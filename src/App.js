@@ -50,12 +50,12 @@ function Selector() {
 
 
     const radioButtons = arrayKinds.map(value =>
-        <>
+        <section>
          <input type="radio" id={value} name="choosePic" value={value}
                 checked={kind === value} onChange={onOptionChange} />
             <label htmlFor={value}>{value}</label>
 
-        </>
+        </section>
             );
 
 
@@ -90,7 +90,7 @@ function Selector() {
 function App() {
   return (
     <div className="App">
-        <b>HALLOOOOO</b>
+        <h1>Welcome! Choose a gallery.</h1>
             <>
             <Selector />
 
