@@ -2,6 +2,17 @@ import { useState } from 'react';
 import './App.css';
 import puffin from './assets/puffin1.jpg';
 import {galleryData} from "./data";
+/* Trying the Navbar, had to correct GeeksForGeeks tutorial on next line*/
+import Navbar from "./components/Navbar/NavbarElements";
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+} from "react-router-dom";
+import Home from "./pages";
+import Gallery from "./pages/gallery";
+import Projects from "./pages/projects";
+
 
 function List({formAction}) {
 /*Apparently all I needed to do was bundle formAction into curly braces */
@@ -90,6 +101,14 @@ function Selector() {
 function App() {
   return (
     <div className="App">
+        <Router>
+            <Navbar />
+            <Routes>
+                <Route exact path="/" element={<Home />} />
+                <Route path="/gallery" element={<Gallery />} />
+                <Route path="/projects" element={<Projects />} />
+            </Routes>
+        </Router>
         <h1>Welcome! Choose a gallery.</h1>
             <>
             <Selector />
