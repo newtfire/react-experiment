@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-experiment/static/css/main.2e7ab96c.css",
+    "main.css": "/react-experiment/static/css/main.37edf721.css",
     "main.js": "/react-experiment/static/js/main.70cd7b28.js",
     "static/js/787.1cf87682.chunk.js": "/react-experiment/static/js/787.1cf87682.chunk.js",
     "static/media/Merton_College_library_hall.jpg": "/react-experiment/static/media/Merton_College_library_hall.54a8433aaf673dce243e.jpg",
@@ -18,12 +18,12 @@
     "static/media/jacquard-loom-card.jpg": "/react-experiment/static/media/jacquard-loom-card.e192b58084dd7ebaa27c.jpg",
     "static/media/langMetropolis.jpg": "/react-experiment/static/media/langMetropolis.fafd3c569ec532977ea3.jpg",
     "index.html": "/react-experiment/index.html",
-    "main.2e7ab96c.css.map": "/react-experiment/static/css/main.2e7ab96c.css.map",
+    "main.37edf721.css.map": "/react-experiment/static/css/main.37edf721.css.map",
     "main.70cd7b28.js.map": "/react-experiment/static/js/main.70cd7b28.js.map",
     "787.1cf87682.chunk.js.map": "/react-experiment/static/js/787.1cf87682.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e7ab96c.css",
+    "static/css/main.37edf721.css",
     "static/js/main.70cd7b28.js"
   ]
 }
