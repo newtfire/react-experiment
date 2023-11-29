@@ -1,6 +1,5 @@
 body {
   margin:2em;
-  font-size:larger;
   color:silver;}
 
 form {margin: 2em;
@@ -10,7 +9,7 @@ form {margin: 2em;
   justify-content:space-evenly;}
 
 ul {display:flex;
-  width:80%;
+  justify-content:space-between;
   margin:auto;
   list-style-type: none;
   overflow: hidden;
