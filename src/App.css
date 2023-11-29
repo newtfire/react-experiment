@@ -1,3 +1,7 @@
+ul {display:flex}
+
+img {max-width:500px; width:100%;}
+
 .App {
   text-align: center;
 }
