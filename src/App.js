@@ -54,7 +54,7 @@ function Selector() {
     /*arrayKinds is a new array of distinct values */
     console.log(arrayKinds);
 
-    const [kind, setKind] = useState(arrayKinds[1])
+    const [kind, setKind] = useState(arrayKinds[4])
     const onOptionChange = (e) => {
         setKind(e.target.value);
     };

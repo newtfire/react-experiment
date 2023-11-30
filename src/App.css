@@ -2,6 +2,27 @@ body {
   margin:2em;
   color:silver;}
 
+/* unvisited link */
+a:link {
+  color: peachpuff;
+}
+
+/* visited link */
+a:visited {
+  color: aqua;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
+
+
 form {margin: 2em;
   background-color:black;
   color:palegoldenrod;

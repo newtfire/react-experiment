@@ -61,6 +61,22 @@ export const galleryData = [{
     note: 'An old chain library in England',
     src: _Merton_College_library_hall
 }, {
+    id: 11,
+    name: 'Night Scene from Miyazaki\'s Spirited Away',
+    kind: 'favs',
+    note: 'Scene from one of my favorite anime movies',
+    src: _spiritedAwayNightScene
+
+},
+    {id: 12,
+        name: 'War of the Worlds Word Cloud',
+        kind: 'favs',
+        note: 'Word cloud from one of my favorite books',
+        src: _warofworldswordcloud
+
+    },
+
+    {
     id: 8,
     name: 'A puffin',
     kind: 'bird',
