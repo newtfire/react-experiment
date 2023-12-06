@@ -6,13 +6,14 @@ import reportWebVitals from './reportWebVitals';
 /* 2023-12-06 New Navbar attempt following https://www.freecodecamp.org/news/how-to-use-react-router-version-6/
 I ran npm */
 import { BrowserRouter } from "react-router-dom";
+import { StaticRouter } from 'react-router-dom/server';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <BrowserRouter>
+    <StaticRouter location="/">
     <App />
-    </BrowserRouter>
+    </StaticRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
