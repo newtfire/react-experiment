@@ -28,10 +28,7 @@ function App() {
                 <Route path="projects" element={<Projects />} />
             </Routes>
 
-        {/* END NAVBAR STUFF HERE  */ }
-
-
-
+        {/* END NAVBAR HERE  */ }
 
         <a
           className="App-link"
