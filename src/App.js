@@ -3,16 +3,18 @@ import './App.css';
 import puffin from './assets/puffin1.jpg';
 import {galleryData} from "./data";
 /* Trying the Navbar, had to correct GeeksForGeeks tutorial on next line*/
-import Navbar from "./components/Navbar/NavbarElements";
+
+/* NAVBAR IMPORTS HERE; Skip if not doing a navbar */
+import Navbar from "./components/NavbarElements";
 import {
-    BrowserRouter as Router,
     Routes,
     Route,
 } from "react-router-dom";
-import Home from "./pages";
+/* ebb: Moved the BrowserRouter import to the main index.js */
+
+import Home from "./pages/home";
 import Gallery from "./pages/gallery";
 import Projects from "./pages/projects";
-
 
 function List({formAction}) {
 /*Apparently all I needed to do was bundle formAction into curly braces */
@@ -87,10 +89,6 @@ function Selector() {
                         Selection <strong>{kind}</strong>
                     </p>
 
-
-
-
-
                 </>
 
             )
@@ -101,23 +99,23 @@ function Selector() {
 function App() {
   return (
     <div className="App">
-        <Router>
-            <Navbar />
+        {/* NAVBAR STUFF HERE (skip if not using) */ }
+        {/*<Router>*/}
+         <Navbar />
             <Routes>
-                <Route exact path="/" element={<Home />} />
+                <Route path="/" element={<Home />} />
                 <Route path="/gallery" element={<Gallery />} />
                 <Route path="/projects" element={<Projects />} />
             </Routes>
-        </Router>
+
+        {/* END NAVBAR STUFF HERE  */ }
+
         <h1>Welcome! Choose a gallery.</h1>
             <>
             <Selector />
 
-
             </>
-        <>
 
-        </>
 
         <a
           className="App-link"
