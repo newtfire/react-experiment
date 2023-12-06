@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-experiment/static/css/main.3e27da29.css",
-    "main.js": "/react-experiment/static/js/main.3f593e76.js",
+    "main.js": "/react-experiment/static/js/main.7847ece3.js",
     "static/js/787.1cf87682.chunk.js": "/react-experiment/static/js/787.1cf87682.chunk.js",
     "static/media/Merton_College_library_hall.jpg": "/react-experiment/static/media/Merton_College_library_hall.54a8433aaf673dce243e.jpg",
     "static/media/warofworldswordcloud.png": "/react-experiment/static/media/warofworldswordcloud.a9ab1c55337493846d14.png",
@@ -10,6 +10,7 @@
     "static/media/bagpipe.png": "/react-experiment/static/media/bagpipe.809597d2bd27b2689051.png",
     "static/media/spiritedAwayNightScene.jpg": "/react-experiment/static/media/spiritedAwayNightScene.f62ffe6047db4b243984.jpg",
     "static/media/puffin2-outsidehomes.jpg": "/react-experiment/static/media/puffin2-outsidehomes.4d1fd1652e4859d478e7.jpg",
+    "static/media/newt-mosaic4.png": "/react-experiment/static/media/newt-mosaic4.dee4429210ffc3bd897c.png",
     "static/media/puffin-habitat.jpg": "/react-experiment/static/media/puffin-habitat.47e4dda932e08c5817fc.jpg",
     "static/media/puffin1.jpg": "/react-experiment/static/media/puffin1.1a83afaf5467cc7b1da6.jpg",
     "static/media/circuitry-nightcafe.jpg": "/react-experiment/static/media/circuitry-nightcafe.44b3af68dd3eb11c6d58.jpg",
@@ -19,11 +20,11 @@
     "static/media/langMetropolis.jpg": "/react-experiment/static/media/langMetropolis.fafd3c569ec532977ea3.jpg",
     "index.html": "/react-experiment/index.html",
     "main.3e27da29.css.map": "/react-experiment/static/css/main.3e27da29.css.map",
-    "main.3f593e76.js.map": "/react-experiment/static/js/main.3f593e76.js.map",
+    "main.7847ece3.js.map": "/react-experiment/static/js/main.7847ece3.js.map",
     "787.1cf87682.chunk.js.map": "/react-experiment/static/js/787.1cf87682.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3e27da29.css",
-    "static/js/main.3f593e76.js"
+    "static/js/main.7847ece3.js"
   ]
 }
