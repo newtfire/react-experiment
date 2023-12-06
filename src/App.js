@@ -24,8 +24,8 @@ function App() {
          <Navbar />
             <Routes>
                 <Route index={true}  element={<Home />} />
-                <Route path="react-experiment/gallery" element={<Gallery />} />
-                <Route path="react-experiment/projects" element={<Projects />} />
+                <Route path="/gallery" element={<Gallery />} />
+                <Route path="/projects" element={<Projects />} />
             </Routes>
 
         {/* END NAVBAR HERE  */ }
