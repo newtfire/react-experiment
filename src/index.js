@@ -10,10 +10,14 @@ import { BrowserRouter } from "react-router-dom";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+console.log(process.env.PUBLIC_URL)
 root.render(
-    <BrowserRouter baseName={process.env.PUBLIC_URL || '/react-experiment/'}>
+
+    <BrowserRouter baseName={'https://newtfire.github.io/' + process.env.PUBLIC_URL}>
+
 
     <App />
+
     </BrowserRouter>
 );
 

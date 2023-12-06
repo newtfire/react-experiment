@@ -22,8 +22,8 @@ function App() {
         {/* NAVBAR STUFF HERE (skip if not using) */ }
         {/*<Router>*/}
          <Navbar />
-            <Routes>
-                <Route index={true}  element={<Home />} />
+        <Routes>
+                <Route index={true} element={<Home />} />
                 <Route path="/gallery" element={<Gallery />} />
                 <Route path="/projects" element={<Projects />} />
             </Routes>
