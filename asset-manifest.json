@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-experiment/static/css/main.3e27da29.css",
-    "main.js": "/react-experiment/static/js/main.662c282e.js",
+    "main.js": "/react-experiment/static/js/main.615d6b51.js",
     "static/js/787.1cf87682.chunk.js": "/react-experiment/static/js/787.1cf87682.chunk.js",
     "static/media/Merton_College_library_hall.jpg": "/react-experiment/static/media/Merton_College_library_hall.54a8433aaf673dce243e.jpg",
     "static/media/warofworldswordcloud.png": "/react-experiment/static/media/warofworldswordcloud.a9ab1c55337493846d14.png",
@@ -19,11 +19,11 @@
     "static/media/langMetropolis.jpg": "/react-experiment/static/media/langMetropolis.fafd3c569ec532977ea3.jpg",
     "index.html": "/react-experiment/index.html",
     "main.3e27da29.css.map": "/react-experiment/static/css/main.3e27da29.css.map",
-    "main.662c282e.js.map": "/react-experiment/static/js/main.662c282e.js.map",
+    "main.615d6b51.js.map": "/react-experiment/static/js/main.615d6b51.js.map",
     "787.1cf87682.chunk.js.map": "/react-experiment/static/js/787.1cf87682.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3e27da29.css",
-    "static/js/main.662c282e.js"
+    "static/js/main.615d6b51.js"
   ]
 }
