@@ -11,7 +11,8 @@ import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <BrowserRouter baseName={process.env.PUBLIC_URL}>
+    <BrowserRouter baseName={process.env.PUBLIC_URL || '/react-experiment/'}>
+
     <App />
     </BrowserRouter>
 );
