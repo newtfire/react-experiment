@@ -23,9 +23,9 @@ function App() {
         {/*<Router>*/}
          <Navbar />
         <Routes>
-                <Route index={true} element={<Home />} />
-                <Route path="/gallery" element={<Gallery />} />
-                <Route path="/projects" element={<Projects />} />
+                <Route index={true} element={<Home />}/>
+                <Route path="/gallery" element={<Gallery/>} />
+                <Route path="/projects" element={<Projects/>} />
             </Routes>
 
         {/* END NAVBAR HERE  */ }

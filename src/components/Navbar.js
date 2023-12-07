@@ -1,4 +1,5 @@
 import { FaBars } from "react-icons/fa";
+import { FcCloseUpMode } from "react-icons/fc";
 import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
 
@@ -26,6 +27,9 @@ export const NavLink = styled(Link)`
     }
 
 `;
+
+export const Tulip = FcCloseUpMode
+
 
 export const Bars = styled(FaBars)`
     //display:none;

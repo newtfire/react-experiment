@@ -1,5 +1,5 @@
 import React from "react";
-import { Bars, Nav, NavLink, NavMenu } from "./Navbar";
+import { Tulip, Bars, Nav, NavLink, NavMenu } from "./Navbar";
 
 const Navbar = () => {
     return (
@@ -7,13 +7,14 @@ const Navbar = () => {
             <Nav>
                 <NavMenu>
                 <Bars/>
-                    <NavLink to="/" >
+                    <Tulip/>
+                    <NavLink to="{Home}" >
                         Home
                     </NavLink>
-                    <NavLink to="/gallery" >
+                    <NavLink to="{Gallery}" >
                         Gallery
                     </NavLink>
-                    <NavLink to="/projects" >
+                    <NavLink to="{Projects}" >
                         Projects
                     </NavLink>
 
