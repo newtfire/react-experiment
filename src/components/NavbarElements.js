@@ -8,13 +8,13 @@ const Navbar = () => {
                 <NavMenu>
                 <Bars/>
                     <Tulip/>
-                    <NavLink to="{Home}" >
+                    <NavLink to="/home" >
                         Home
                     </NavLink>
-                    <NavLink to="{Gallery}" >
+                    <NavLink to="/gallery" >
                         Gallery
                     </NavLink>
-                    <NavLink to="{Projects}" >
+                    <NavLink to="/projects" >
                         Projects
                     </NavLink>
 

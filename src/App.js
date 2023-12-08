@@ -7,7 +7,7 @@ import {galleryData} from "./data";
 import Navbar from "./components/NavbarElements";
 import {
     Routes,
-    Route,
+    Route, Router,
 } from "react-router-dom";
 /* ebb: Moved the BrowserRouter import to the main index.js */
 
@@ -20,13 +20,15 @@ function App() {
   return (
     <div className="App">
         {/* NAVBAR STUFF HERE (skip if not using) */ }
-        {/*<Router>*/}
+
          <Navbar />
+
         <Routes>
-                <Route index={true} element={<Home />}/>
-                <Route path="/gallery" element={<Gallery/>} />
-                <Route path="/projects" element={<Projects/>} />
+                <Route index element={<Home />}/>
+                <Route path="/gallery" element={<Gallery />} />
+                <Route path="/projects" element={<Projects />} />
             </Routes>
+
 
         {/* END NAVBAR HERE  */ }
 
