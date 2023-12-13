@@ -1,6 +1,6 @@
 import newt from "../assets/newt-mosaic4.png";
 
-// Filename - pages/index.js
+// Filename - react-experiment/index.js
 
 import React from "react";
 

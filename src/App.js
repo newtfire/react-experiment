@@ -11,9 +11,9 @@ import {
 } from "react-router-dom";
 /* ebb: Moved the BrowserRouter import to the main index.js */
 
-import Home from "./pages/home";
-import Gallery from "./pages/gallery";
-import Projects from "./pages/projects";
+import Home from "./react-experiment/home";
+import Gallery from "./react-experiment/gallery";
+import Projects from "./react-experiment/projects";
 
 
 function App() {
@@ -25,8 +25,8 @@ function App() {
 
         <Routes>
                 <Route index element={<Home />}/>
-                <Route path="/gallery" element={<Gallery />} />
-                <Route path="/projects" element={<Projects />} />
+                <Route path="react-experiment/gallery" element={<Gallery />} />
+                <Route path="react-experiment/projects" element={<Projects />} />
             </Routes>
 
 
