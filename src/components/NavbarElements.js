@@ -8,13 +8,13 @@ const Navbar = () => {
                 <NavMenu>
                 <Bars/>
                     <Tulip/>
-                    <NavLink to="/home" >
+                    <NavLink to="react-experiment/home" >
                         Home
                     </NavLink>
-                    <NavLink to="/gallery" >
+                    <NavLink to="react-experiment/gallery" >
                         Gallery
                     </NavLink>
-                    <NavLink to="/projects" >
+                    <NavLink to="react-experiment/projects" >
                         Projects
                     </NavLink>
 
